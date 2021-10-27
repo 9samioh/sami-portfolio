@@ -1,0 +1,315 @@
+
+/* fonts */
+@font-face {
+	src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+	font-family: sans;
+	font-weight: lighter;
+}
+
+@font-face {
+	src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+	font-family: fatface;
+	font-weight: normal;
+}
+
+@font-face {
+	src: url(../fonts/Canela-Thin-Web.woff);
+	font-family: canela;
+	font-weight: thin;
+    letter-spacing: 3;
+}
+@font-face {
+	src: url(../fonts/Cormorant/Cormorant-Light.ttf);
+	font-family: cormorant;
+	font-weight: normal;
+}
+
+.navigation {
+    background-color: #F2ECE2;
+}
+
+.navLinks {
+    text-align: center;
+}
+
+.links {
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.link1 {
+    position: relative;
+    color: #333;
+    font-family: sans;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.link1:after {
+    content: "";
+    position: absolute;
+    background-color: #333;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: -3px;
+    color: #333;
+}
+
+.link1:hover {
+    color: #333;
+}
+
+.link {
+    position: relative;
+    color: #333;
+    font-family: sans;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.link:after {
+    content: "";
+    position: absolute;
+    background-color: #333;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    color: #333;
+    transition: 0.3s;
+}
+
+.link:hover:after {
+    width: 100%;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.about {
+    background-color: #F2ECE2;
+    padding-bottom: 3%;
+}
+
+.info {
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+.myinfo {
+    width: 60%;
+}
+
+.school {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    padding-top: 5%;
+
+}
+
+.infodescription {
+    font-family: sans;
+    font-size: 35px;
+    width: 23%;
+}
+
+.berkeley {
+    width: 50%;
+    margin-left: 1%;
+}
+
+.major {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+    padding-top: 10%;
+}
+
+.left2 {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.mypicture {
+    width: 60%;
+}
+
+.infodescription2 {
+    font-family: sans;
+    font-size: 25px;
+    text-align: right;
+    width: 90%;
+    font-variation-settings: 'wght' 200;
+}
+
+.infotitle2 {
+    text-align: right;
+    width: 90%;
+    font-family: cormorant;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.right {
+    padding-right: 15%;
+    width: 56%;
+}
+
+.interests {
+    margin-bottom: 10%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.hobbyinfo {
+    display: none;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+}
+
+.funfact {
+    margin-top: 15%;
+}
+
+.facttitle {
+    width: 50%;
+    text-align: left;
+    font-family: cormorant;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-left: 15%;
+}
+
+.factdesc {
+    width: 40%;
+    text-align: left;
+    font-family: sans;
+    font-size: 25px;
+    margin-left: 15%;
+    font-variation-settings: 'wght' 200;
+}
+
+.pets {
+    margin-left: 15%;
+}
+
+.clubs {
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.club {
+    display: flex;
+    justify-content: center;
+}
+
+
+.clubtitle {
+    font-family: cormorant;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+
+.bp {
+    background-image: url("../blueprint.png");
+    background-repeat: no-repeat;
+    transition: .3s all;
+    width: 20%;
+}
+
+.bp:hover {
+    background: url("../blueprinthover.png");
+    background-repeat: no-repeat;
+    transform: translateY(-5px);
+    transition: .3s all;
+
+}
+
+.aaa {
+    background-image: url("../aaa.png");
+    background-repeat: no-repeat;
+    transition: .3s all;
+    width: 20%;
+    /* position: relative; */
+}
+
+.aaa:hover {
+    background: url("../aaahover.png");
+    background-repeat: no-repeat;
+    transform: translateY(-5px);
+    transition: .3s all;
+}
+
+.code {
+    background-image: url("../codeology.png");
+    background-repeat: no-repeat;
+    transition: .3s all;
+    width: 20%;
+}
+
+.code:hover {
+    background: url("../codeologyhover.png");
+    background-repeat: no-repeat;
+    transform: translateY(-5px);
+    transition: .3s all;
+}
+
+.project {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.build {
+    background-image: url("../buildabear.png");
+    background-repeat: no-repeat;
+    transition: .3s all;
+    width: 58%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.build:hover {
+    background: url("../buildabearhover.png");
+    background-repeat: no-repeat;
+    transform: translateY(-5px);
+    transition: .3s all;
+}
+
+
+
+.bloom {
+    background-image: url("../bloom.png");
+    background-repeat: no-repeat;
+    transition: .3s all;
+    width: 58%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bloom:hover {
+    background: url("../bloomhover.png");
+    background-repeat: no-repeat;
+    transform: translateY(-5px);
+    transition: .3s all;
+}

@@ -1,0 +1,368 @@
+/* fonts */
+@font-face {
+	src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+	font-family: sans;
+}
+
+@font-face {
+	src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+	font-family: fatface;
+	font-weight: normal;
+}
+
+@font-face {
+	src: url(../fonts/Cormorant/Cormorant-Light.ttf);
+	font-family: cormorant;
+	font-weight: normal;
+}
+
+.navigation {
+    background-color: #F2ECE2;
+}
+
+.navLinks {
+    text-align: center;
+}
+
+.links {
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.link1 {
+    position: relative;
+    color: #333;
+    font-family: sans;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.link1:after {
+    content: "";
+    position: absolute;
+    background-color: #333;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: -3px;
+    color: #333;
+}
+
+.link1:hover {
+    color: #333;
+}
+
+.link {
+    position: relative;
+    color: #333;
+    font-family: sans;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.link:after {
+    content: "";
+    position: absolute;
+    background-color: #333;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    color: #333;
+    transition: 0.3s;
+}
+
+.link:hover:after {
+    width: 100%;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+.work {
+    background-color: #F2ECE2;
+    padding-bottom: 10%;
+    max-width: 100%;
+}
+
+.me{
+    background-image: url("../aboutbkgd.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.left {
+    width: 30%;
+    margin-left: 25%;
+    height: 100%;
+    margin-top: 5%;
+}
+
+.hello {
+    font-family: cormorant;
+    font-size: 60px;
+    color: #333;
+    font-weight: normal;
+}
+
+.description {
+    font-family: sans;
+    font-size: 30px;
+    font-variation-settings: 'wght' 200;
+}
+
+.title {
+    font-family: cormorant;
+    font-size: 60px;
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+}
+
+.covers {
+    background-image: url("../projects.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    height: 100%;
+}
+
+.left2 {
+    padding-left: 55%;
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+
+.title2left {
+    font-family: cormorant;
+    font-size: 50px;
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+    text-align: left;
+    line-height: 0.8;
+}
+
+.desc2left {
+    font-family: sans;
+    font-size: 20px;
+    font-variation-settings: 'wght' 200;
+    width: 60%;
+    padding-left: 15%;
+    line-height: 1.5;
+}
+
+.here2left {
+    font-family: sans;
+    font-size: 20px;
+    font-variation-settings: 'wght' 400;
+    width: 50%;
+    padding-left: 15%;
+    line-height: 1;
+    color: #C3B499;
+    text-decoration: none;
+}
+
+.right2 {
+    padding-right: 57%;
+    text-align: right;
+    padding-top: 17%;
+    padding-bottom: 17%;
+    /* background-color: blue; */
+}
+
+.title2right {
+    font-family: cormorant;
+    font-size: 50px;
+    color: #333;
+    font-weight: normal;
+    text-align: right;
+    line-height: 0.8;
+}
+
+.desc2right {
+    font-family: sans;
+    font-size: 20px;
+    font-variation-settings: 'wght' 200;
+    width: 60%;
+    padding-left: 28%;
+    line-height: 1.5;
+    text-align: right;
+    display: flex;
+    flex: right;
+}
+
+.here2right {
+    font-family: sans;
+    font-size: 20px;
+    font-variation-settings: 'wght' 400;
+    padding-right: 12%;
+    line-height: 1;
+    color: #C3B499;
+    text-decoration: none;
+}
+
+
+
+
+
+/* .covers {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+} */
+
+/* .cover {
+    position: relative;
+    margin-left: 15%;
+}
+
+.image {
+    display: block;
+    width: 90%;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    width: 90%;
+}
+
+.overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.overlay:hover {
+    opacity: 1;
+    backdrop-filter: blur(3px);
+}
+
+.overlay:hover > * {
+    transform: translateY(0);
+}
+
+.overtitle {
+    font-family: sans;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 60%;
+}
+
+.oversub {
+    font-family: sans;
+    font-size: 1.25em;
+}
+
+.overdesc {
+    font-family: sans;
+    font-size: 1.5em;
+    margin-top: 0.25em;
+}
+
+.cover2 {
+    position: relative;
+    margin-right: 15%;
+}
+
+.image2 {
+    display: block;
+    width: 90%;
+    
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    width: 90%;
+}
+
+.overlay2 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.overlay2:hover {
+    opacity: 1;
+    backdrop-filter: blur(3px);
+}
+
+.overlay2:hover > * {
+    transform: translateY(0);
+}
+
+.overtitle2 {
+    font-family: sans;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 60%;
+}
+
+.oversub2 {
+    font-family: sans;
+    font-size: 1.25em;
+}
+
+.overdesc2 {
+    font-family: sans;
+    font-size: 1.5em;
+    margin-top: 0.25em;
+}
+
+.overtitleo {
+    font-family: sans;
+    font-size: 2.75em;
+    font-weight: bold;
+    line-height: 60%;
+}
+
+.overtitlen {
+    font-family: sans;
+    font-size: 2.25em;
+    font-weight: bold;
+    line-height: 100%;
+    text-align: center;
+} */

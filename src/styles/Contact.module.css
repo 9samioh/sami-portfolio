@@ -1,0 +1,135 @@
+/* fonts */
+@font-face {
+	src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+	font-family: sans;
+	font-weight: normal;
+}
+
+@font-face {
+	src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+	font-family: fatface;
+	font-weight: normal;
+}
+@font-face {
+	src: url(../fonts/Cormorant/Cormorant-Light.ttf);
+	font-family: cormorant;
+	font-weight: normal;
+}
+
+.navigation {
+    background-color: #F2ECE2;
+}
+
+.navLinks {
+    text-align: center;
+}
+
+.links {
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.link1 {
+    position: relative;
+    color: #333;
+    font-family: sans;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.link1:after {
+    content: "";
+    position: absolute;
+    background-color: #333;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: -3px;
+    color: #333;
+}
+
+.link1:hover {
+    color: #333;
+}
+
+.link {
+    position: relative;
+    color: #333;
+    font-family: sans;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.link:after {
+    content: "";
+    position: absolute;
+    background-color: #333;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    color: #333;
+    transition: 0.3s;
+}
+
+.link:hover:after {
+    width: 100%;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.contact {
+    background-color: #F2ECE2;
+}
+
+.info {
+    background-image: url("../contactbkgd.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    padding-bottom: 10%;
+}
+
+.contactinfo {
+    width: 40%;
+    background-color: none;
+    float: right;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.title {
+    font-family: cormorant;
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+.desc {
+    font-family: sans;
+    font-size: 20px;
+    font-variation-settings: 'wght' 200;
+}
+
+.link2 {
+    color: #D4A384;
+    text-decoration: none;
+    font-variation-settings: 'wght' 500;
+}
+
+.link2:hover {
+    text-decoration: none;
+    color: #333;
+}
+

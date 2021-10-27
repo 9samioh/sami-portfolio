@@ -1,0 +1,59 @@
+/* fonts */
+@font-face {
+	src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+	font-family: sans;
+	font-weight: normal;
+}
+
+@font-face {
+	src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+	font-family: fatface;
+	font-weight: normal;
+}
+
+.navigation {
+    background-color: #F2ECE2;
+}
+
+.navLinks {
+    text-align: center;
+}
+
+.links {
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.link {
+    position: relative;
+    color: #333;
+    font-family: sans;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.link:after {
+    content: "";
+    position: absolute;
+    background-color: #333;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    color: #333;
+    transition: 0.3s;
+}
+
+.link:hover:after {
+    width: 100%;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #333;
+}
