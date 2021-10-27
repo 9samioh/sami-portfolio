@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 //import { Navigation, Footer, AboutMe, Work, Art, Contact, Xkeeper } from "./components";
 import { Scroll, AboutMe, Work, Art, Contact, Xkeeper, Omega, Buildabear, Findyourzen, Bloom, Nbjc } from "./components";
 function App() {
