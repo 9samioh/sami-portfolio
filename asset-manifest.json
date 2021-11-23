@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sami-portfolio/static/css/main.8abc4f8a.chunk.css",
-    "main.js": "/sami-portfolio/static/js/main.5df6574d.chunk.js",
-    "main.js.map": "/sami-portfolio/static/js/main.5df6574d.chunk.js.map",
+    "main.js": "/sami-portfolio/static/js/main.a68b8a40.chunk.js",
+    "main.js.map": "/sami-portfolio/static/js/main.a68b8a40.chunk.js.map",
     "runtime-main.js": "/sami-portfolio/static/js/runtime-main.556a876e.js",
     "runtime-main.js.map": "/sami-portfolio/static/js/runtime-main.556a876e.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/sami-portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -19,13 +19,14 @@
     "static/media/Work.module.css": "/sami-portfolio/static/media/projects.27bc0230.png",
     "static/media/Bloom.module.css": "/sami-portfolio/static/media/interestxkeeperhover.63b47cbd.png",
     "static/media/Findyourzen.module.css": "/sami-portfolio/static/media/interestnbjchover.95741dcd.png",
-    "static/media/Buildabear.module.css": "/sami-portfolio/static/media/interestfindyourzenhover.0218af4c.png"
+    "static/media/Buildabear.module.css": "/sami-portfolio/static/media/interestfindyourzenhover.0218af4c.png",
+    "static/media/xkeeperscreens.f56e5b75.png": "/sami-portfolio/static/media/xkeeperscreens.f56e5b75.png"
   },
   "entrypoints": [
     "static/js/runtime-main.556a876e.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.737651ae.chunk.js",
     "static/css/main.8abc4f8a.chunk.css",
-    "static/js/main.5df6574d.chunk.js"
+    "static/js/main.a68b8a40.chunk.js"
   ]
 }
