@@ -22,12 +22,14 @@
 }
 
 .top {
-    background-image: url("../xkeeperbkgd.png");
+    background-color: #D4A384;
+
+    /* background-image: url("../xkeeperbkgd.png");
     background-repeat: no-repeat;
     background-position: center;
     max-width: 100%;
     height: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden; */
 }
 
 .navLinks {

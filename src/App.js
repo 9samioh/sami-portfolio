@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 //import { Navigation, Footer, AboutMe, Work, Art, Contact, Xkeeper } from "./components";
-import { Scroll, AboutMe, Work, Art, Contact, Xkeeper, Omega, Buildabear, Findyourzen, Bloom, Nbjc } from "./components";
+import { Scroll, AboutMe, Work, Art, Contact, Xkeeper, Omega, Buildabear, Findyourzen, Bloom, Nbjc, BSC, Cadence } from "./components";
 function App() {
   return (
     <div className="App">
@@ -19,6 +19,9 @@ function App() {
           <Route path="/findyourzen" exact component={() => <Findyourzen />} />
           <Route path="/bloom" exact component={() => <Bloom />} />
           <Route path="/nbjc" exact component={() => <Nbjc />} />
+          <Route path="/bsc" exact component={() => <BSC />} />
+          <Route path="/cadence" exact component={() => <Cadence />} />
+
         </Switch>
         {/* <Footer /> */}
         </Scroll>

@@ -17,13 +17,14 @@
 	font-weight: normal;
 }
 
-.xkeeper {
+.buildabear{
     background-color: #F2ECE2;
 }
 
 .top {
-    background-color: #D4A384;
-    /* background-image: url("../buildabearbkgd.png");
+    background-color: #CFDBCD;
+
+    /* background-image: url("../findyourzenbkgd.png");
     background-repeat: repeat;
     background-position: center;
     max-width: 100%;
@@ -101,7 +102,6 @@
 
 .title {
     padding-top: 3%;
-    
     text-align: center;
 }
 
@@ -119,18 +119,26 @@
     line-height: 1.5;
 }
 
-.productinfo {
-    padding-top: 10%;
+.omegascreen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
     padding-bottom: 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
+    height: 50%;
+    margin-top: -5%;
 }
 
 .product {
-    padding-right: 5%;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    align-items: center;
+    background-color: #E9DDCA;
+    padding-right: 25%;
+    padding-left: 25%;
 }
 
 .productt {
@@ -147,68 +155,24 @@
     line-height: 1.5;
 }
 
-.problem {
+.job {
     margin-top: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
-    margin-bottom: 5%;
     text-align: center;
     align-items: center;
-    background-color: #E9DDCA;
     padding-right: 25%;
     padding-left: 25%;
 }
 
-.testing {
-    padding-top: 5%;
-    padding-bottom: 2%;
-    width: 40%;
-    padding-left: 20%;
-}
-
-
-
-.similarservices {
-padding-left: 30%;
-}
-
-.overview {
+.screen {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5%;
-    width: 50%;
-}
-.girl {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5%;
-    width: 5%;
-    padding-bottom: 10%;
-}
-
-.notes {
-    padding-top: 5%;
-    font-family: sans;
-    font-variation-settings: 'wght' 200;
-    font-size: 20px;
-    line-height: 1.5;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.xdesc {
-    padding-top: 5%;
-    font-family: sans;
-    font-variation-settings: 'wght' 200;
-    font-size: 20px;
-    line-height: 1.5;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    width: 60%;
+    padding-bottom: 3%;
+    height: 50%;
+    margin-top: -5%;
 }
 
 .xdesc2 {
@@ -221,14 +185,6 @@ padding-left: 30%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-}
-
-.xkeeperscreens {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-bottom: 5%;
 }
 
 .screenlink {
@@ -268,14 +224,14 @@ padding-left: 30%;
 }
 
 .bp {
-    background-image: url("../interestomega.png");
+    background-image: url("../interestnbjc.png");
     background-repeat: no-repeat;
     transition: .3s all;
     width: 26%;
 }
 
 .bp:hover {
-    background: url("../interestomegahover.png");
+    background: url("../interestnbjchover.png");
     background-repeat: no-repeat;
     transform: translateY(-5px);
     transition: .3s all;
@@ -283,7 +239,7 @@ padding-left: 30%;
 }
 
 .aaa {
-    background-image: url("../interestbuildabear.png");
+    background-image: url("../interestbloom.png");
     background-repeat: no-repeat;
     transition: .3s all;
     width: 26%;
@@ -291,7 +247,7 @@ padding-left: 30%;
 }
 
 .aaa:hover {
-    background: url("../interestbuildabearhover.png");
+    background: url("../interestbloomhover.png");
     background-repeat: no-repeat;
     transform: translateY(-5px);
     transition: .3s all;
