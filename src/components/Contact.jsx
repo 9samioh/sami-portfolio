@@ -51,7 +51,7 @@ const Contact = () => {
             <a class={styles.link2} href="https://www.linkedin.com/in/samantha-oh-3315b31b7/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <br/>
             <br/>
-            <a class={styles.link2} href="https://drive.google.com/file/d/1uq7xgpGnb5kUjUITkZDt_TLAcZgZ0sd1/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a class={styles.link2} href="https://drive.google.com/file/d/1EomaCp-phZlfEfnNqZw8_C_MhA5yCBEK/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
             {/* <br/>
             <br/>
             <a href="https://berkeley.joinhandshake.com/users/20651586" target="_blank" rel="noopener noreferrer">Handshake</a> */}

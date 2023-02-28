@@ -42,7 +42,7 @@ const Bloom = () => {
         <div data-aos="fade-in" class={styles.title}>
           <h1 class={styles.head}>BLOOM</h1>
           <p class={styles.desc}>Organization: UC Berkeley Blueprint<br/>
-            Position: Marketing + External Director
+            Position: External Director
           </p>
           <img
           data-aos="fade-in"
@@ -76,9 +76,9 @@ const Bloom = () => {
           </div>
       
           <p class={styles.xdesc3}>
-          go to top
+          go back
         </p>
-        <Link to="/bloom">
+        <Link to="/">
         <img
           data-aos="fade-in"
           class={styles.scrollup}

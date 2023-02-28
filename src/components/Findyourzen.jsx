@@ -82,9 +82,9 @@ const Findyourzen = () => {
           </div>
       
           <p class={styles.xdesc3}>
-          go to top
+          go back
         </p>
-        <Link to="/findyourzen">
+        <Link to="/">
         <img
           data-aos="fade-in"
           class={styles.scrollup}

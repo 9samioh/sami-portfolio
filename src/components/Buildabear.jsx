@@ -81,9 +81,9 @@ const Buildabear = () => {
           </div>
       
           <p class={styles.xdesc3}>
-          go to top
+          go back
         </p>
-        <Link to="/buildabear">
+        <Link to="/">
         <img
           data-aos="fade-in"
           class={styles.scrollup}

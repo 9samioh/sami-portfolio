@@ -3,6 +3,7 @@ import styles from "../styles/XKeeper.module.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { Link } from "react-router-dom";
+import xkeeperscreens from "../xkeeperscreens.png"
 
 
 const Xkeeper = (props) => {
@@ -49,7 +50,7 @@ const Xkeeper = (props) => {
         <img
           data-aos="fade-in"
           class={styles.xkeeperscreens}
-          src="images/xkeeperscreens.png"
+          src={xkeeperscreens}
           alt=""
           /> 
 
@@ -249,9 +250,10 @@ const Xkeeper = (props) => {
           </div>
       
           <p class={styles.xdesc3}>
-          go to top
+          go back
         </p>
-        <Link to="/xkeeper">
+        <Link to="/">
+          
         <img
           data-aos="fade-in"
           class={styles.scrollup}

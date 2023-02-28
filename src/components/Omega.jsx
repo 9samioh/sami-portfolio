@@ -109,9 +109,9 @@ const Omega = () => {
           </div>
       
           <p class={styles.xdesc3}>
-          go to top
+          go back
         </p>
-        <Link to="/omega">
+        <Link to="/">
         <img
           data-aos="fade-in"
           class={styles.scrollup}

@@ -44,7 +44,7 @@ const Work = (props) => {
           <div class={styles.left}>
             <h1 class={styles.hello}>Hello! <br/> My name is <br/> Sami Oh</h1>
             <p class={styles.description}>
-              I am an aspiring UI/UX designer and developer
+              I am an aspiring Software Engineer and UI/UX Designer
             </p>
           
             
@@ -60,7 +60,19 @@ const Work = (props) => {
         <h1 class={styles.title}>Recent Work</h1>
       </div>
       <div data-aos="fade-in" class={styles.covers}>
-        
+        <div data-aos="fade-in" class={styles.left2}>
+          <h1 class={styles.title2left}>Berkeley Student Cooperative</h1>
+          <p class={styles.desc2left}>Created a workshift application for 500+ students and managers living in affordable housing.</p>
+          <Link class={styles.here2left} to="/xkeeper"> &lt;&lt; VIEW<span class="sr-only"></span></Link>
+        </div>
+
+        <div data-aos="fade-in" class={styles.right2}>
+          <h1 class={styles.title2right}>Cadence Solutions</h1>
+          <p class={styles.desc2right}>Developed a clinician facing application for a Remote Patient Monitoring startup.</p>
+          <Link class={styles.here2right} to="/omega">VIEW &gt;&gt;</Link>
+        </div>
+
+
         <div data-aos="fade-in" class={styles.left2}>
           <h1 class={styles.title2left}>XKeeper by Jiran</h1>
           <p class={styles.desc2left}>Redesign of a Korean parental control app to focus on safety features.</p>
