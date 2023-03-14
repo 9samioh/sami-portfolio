@@ -3,6 +3,8 @@ import styles from "../styles/Nbjc.module.css"
 import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import ActionAreaCard from "./ActionAreaCard";
+
 
 const Nbjc = () => {
   useEffect(() => {
@@ -171,13 +173,14 @@ Developers: Samantha Oh, Bryanna Gavino, Cindy Zhang, Frederick Kim, Gabe Espino
             <h1 className={styles.clubtitle}>You Might Be Interested In</h1>
             <div className={styles.club}>
                
-                <Link to="/bloom" class={styles.aaa}>
-                  </Link>
-                  <Link to="/xkeeper" class={styles.code}>
-                  </Link>
-                  <Link to="/omega" class={styles.bp}>
-                    <br></br><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                </Link> 
+            <div data-aos="fade-in" className={styles.clubs}>
+            <h1 className={styles.clubtitle}>You Might Be Interested In</h1>
+            <div className={styles.club}>
+              <ActionAreaCard id="BSC"/>
+              <ActionAreaCard id="cadence"/>
+              <ActionAreaCard id="xkeeper"/>
+            </div>
+          </div>
             </div>
           </div>
       

@@ -112,6 +112,32 @@
     line-height: 0.4;
 }
 
+.flex {
+    display: flex;
+    width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+.problem {
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    align-items: center;
+    background-color: #E9DDCA;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+.xkeeperscreens {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 5%;
+}
+
 .desc {
     font-family: sans;
     font-variation-settings: 'wght' 200;
@@ -136,7 +162,6 @@
     margin-bottom: 5%;
     text-align: center;
     align-items: center;
-    background-color: #E9DDCA;
     padding-right: 25%;
     padding-left: 25%;
 }

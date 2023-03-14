@@ -3,6 +3,8 @@ import styles from "../styles/Bloom.module.css"
 import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import ActionAreaCard from "./ActionAreaCard";
+
 
 const Bloom = () => {
   useEffect(() => {
@@ -64,13 +66,14 @@ const Bloom = () => {
           <div data-aos="fade-in" className={styles.clubs}>
             <h1 className={styles.clubtitle}>You Might Be Interested In</h1>
             <div className={styles.club}>
-               <Link to="/xkeeper" class={styles.code}>
-                  </Link>
-                  <Link to="/omega" class={styles.bp}>
-                    <br></br><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                </Link> 
-                <Link to="/buildabear" class={styles.aaa}>
-                  </Link>
+            <div data-aos="fade-in" className={styles.clubs}>
+            <h1 className={styles.clubtitle}>You Might Be Interested In</h1>
+            <div className={styles.club}>
+              <ActionAreaCard id="BSC"/>
+              <ActionAreaCard id="cadence"/>
+              <ActionAreaCard id="xkeeper"/>
+            </div>
+          </div>
                   
             </div>
           </div>

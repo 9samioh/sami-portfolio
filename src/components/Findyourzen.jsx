@@ -3,6 +3,8 @@ import styles from "../styles/Findyourzen.module.css"
 import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import ActionAreaCard from "./ActionAreaCard";
+
 
 const Findyourzen = () => {
   useEffect(() => {
@@ -67,17 +69,12 @@ const Findyourzen = () => {
       
 
 
-          <div data-aos="fade-in" className={styles.clubs}>
+      <div data-aos="fade-in" className={styles.clubs}>
             <h1 className={styles.clubtitle}>You Might Be Interested In</h1>
             <div className={styles.club}>
-               <Link to="/nbjc" class={styles.bp}>
-                    <br></br><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                </Link> 
-                
-                  <Link to="/bloom" class={styles.code}>
-                  </Link>
-                <Link to="/xkeeper" class={styles.aaa}>
-                  </Link>  
+              <ActionAreaCard id="BSC"/>
+              <ActionAreaCard id="cadence"/>
+              <ActionAreaCard id="xkeeper"/>
             </div>
           </div>
       

@@ -3,6 +3,8 @@ import styles from "../styles/Buildabear.module.css"
 import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import ActionAreaCard from "./ActionAreaCard";
+
 
 const Buildabear = () => {
   useEffect(() => {
@@ -65,20 +67,15 @@ const Buildabear = () => {
       
 
 
-          <div data-aos="fade-in" className={styles.clubs}>
+      <div data-aos="fade-in" className={styles.clubs}>
             <h1 className={styles.clubtitle}>You Might Be Interested In</h1>
             <div className={styles.club}>
-               
-                
-                  <Link to="/findyourzen" class={styles.code}>
-                  </Link>
-                  <Link to="/nbjc" class={styles.bp}>
-                    <br></br><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                </Link> 
-                <Link to="/bloom" class={styles.aaa}>
-                  </Link>
+              <ActionAreaCard id="BSC"/>
+              <ActionAreaCard id="cadence"/>
+              <ActionAreaCard id="xkeeper"/>
             </div>
           </div>
+
       
           <p class={styles.xdesc3}>
           go back

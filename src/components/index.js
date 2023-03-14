@@ -13,3 +13,4 @@ export { default as Bloom } from "./Bloom";
 export { default as Scroll } from "./Scroll";
 export { default as BSC } from "./BSC";
 export { default as Cadence } from "./Cadence";
+export { default as ActionAreaCard } from "./ActionAreaCard";

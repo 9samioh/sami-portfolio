@@ -3,6 +3,7 @@ import styles from "../styles/Aboutme.module.css"
 import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import ActionAreaCard from "./ActionAreaCard";
 
 
 
@@ -99,17 +100,13 @@ const AboutMe = () => {
           <div data-aos="fade-in" className={styles.clubs}>
             <h1 className={styles.clubtitle}>CAMPUS CLUBS</h1>
             <div className={styles.club}>
-                  <a class={styles.bp} href="https://calblueprint.org/" target="_blank" rel="noopener noreferrer">
-                    <br></br><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                  </a>
-                  <a class={styles.aaa} href="https://www.instagram.com/ucberkeleyaaa/" target="_blank" rel="noopener noreferrer">
-                  </a>
-                  <a class={styles.code} href="https://codeology.club/#/" target="_blank" rel="noopener noreferrer">
-                  </a>
+              <ActionAreaCard id="blueprint"/>
+              <ActionAreaCard id="aaa"/>
+              <ActionAreaCard id="codeo"/>
             </div>
           </div>
 
-          <div data-aos="fade-in" className={styles.clubs}>
+          {/* <div data-aos="fade-in" className={styles.clubs}>
             <h1 className={styles.clubtitle}>LATEST PROJECTS</h1>
             <div className={styles.project}>
                   <Link class={styles.build} to="/buildabear">
@@ -121,7 +118,7 @@ const AboutMe = () => {
                     <span class="sr-only"></span>
                   </Link>
             </div>
-          </div>
+          </div> */}
         </div>
 
       </div>

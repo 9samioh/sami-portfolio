@@ -9,6 +9,9 @@ import bsc3 from "../bsc3.png"
 import bsc4 from "../bsc4.png"
 import bsc5 from "../bsc5.png"
 import bsc6 from "../bsc6.png"
+import bsc7 from "../bsc7.png"
+import bsc8 from "../bsc8.png"
+import ActionAreaCard from "./ActionAreaCard";
 
 
 const BSC = (props) => {
@@ -98,6 +101,21 @@ const BSC = (props) => {
             <p class={styles.productd}>Currently, it’s plagued by technical issues that make it difficult to navigate and use at a large scale.  Because of these issues, some managers have resorted to using excel sheets to match members with shifts.  With some houses having over 100 members, this has become a huge painpoint for managers. 
             </p>
         </div>
+        <div class={styles.club}>
+                  <img
+          data-aos="fade-in"
+          class={styles.smallimg}
+          src={bsc7}
+          alt=""
+          /> 
+                  <img
+          data-aos="fade-in"
+          class={styles.smallimg}
+          src={bsc8}
+          alt=""
+          /> 
+        </div>
+
 
         <div data-aos="fade-in" class={styles.testing}>
           <h1 class={styles.productt}>Rebuilding</h1>
@@ -172,18 +190,12 @@ const BSC = (props) => {
             </p>
         </div>
 
-       
-
           <div data-aos="fade-in" className={styles.clubs}>
             <h1 className={styles.clubtitle}>You Might Be Interested In</h1>
             <div className={styles.club}>
-                <Link to="/omega" class={styles.bp}>
-                    <br></br><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                </Link>
-                <Link to="/buildabear" class={styles.aaa}>
-                  </Link>
-                  <Link to="/findyourzen" class={styles.code}>
-                  </Link>
+              <ActionAreaCard id="cadence"/>
+              <ActionAreaCard id="xkeeper"/>
+              <ActionAreaCard id="omega"/>
             </div>
           </div>
       
