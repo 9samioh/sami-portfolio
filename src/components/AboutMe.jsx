@@ -61,7 +61,7 @@ const AboutMe = () => {
               <div className={styles.right}>
                 <h1 class={styles.infotitle2}>Background</h1>
                 <p class={styles.infodescription2}>
-                I have a very technical education because of my courses and involvment in two tech clubs on campus.  All of my design skills are from online courses, youtube videos, and a lot of google searches.  I gained experience last summer interning at a software company, doing UI/UX design for their new parental control app.  I’m always looking for more design projects and internship experience to continue growing my skillset!
+                I have a very technical education because of my courses and involvment in two tech clubs on campus.  I gained a lot of technical experience through my on-campus organization called Blueprint, where we build web and mobile applications for non-profits.  All of my design skills are from online courses, youtube videos, and a lot of google searches!  I gained experience in the past two semesters through design and software engineering internships, and am now <b>pursing a full time role in software engineering</b>.  I’m always looking for more fun projects and experiences to continue growing my skillset!
                 </p>
               </div>
             </div>
