@@ -188,6 +188,11 @@ const BSC = (props) => {
         <div data-aos="fade-in" class={styles.problem}>
             <p class={styles.productd}>This workshift application is currently being developed and will be deployed at the end of the Spring 2023 semester!!
             </p>
+            <p class={styles.productd}>Read this article released by the club!
+            </p>
+            <a target="_blank" rel="noopener noreferrer" href="https://medium.com/blueprint/berkeley-student-cooperative-a-project-overview-cfc07b7113a4" class={styles.screenlink}>
+          LET'S GO!
+        </a>
         </div>
 
           <div data-aos="fade-in" className={styles.clubs}>
